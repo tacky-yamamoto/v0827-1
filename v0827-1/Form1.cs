@@ -12,12 +12,16 @@ namespace v0827_1
 {
     public partial class Form1 : Form
     {
-        int vx = -3;
-        int vy = -3;
+        static Random rand = new Random();
+        int vx = rand.Next(-7, 8);
+        int vy = rand.Next(-7, 8);
         int itime = 0;
         public Form1()
         {
             InitializeComponent();
+            
+            label1.Left = rand.Next(ClientSize.Width-label1.Width);
+            label1.Top = rand.Next(ClientSize.Height-label1.Height);
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -49,6 +53,14 @@ namespace v0827_1
             {
                 timer1.Enabled=false;
             }
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            label3.Left = 0;
+            label3.Top = ClientSize.Height - label3.Height;
+            label2.Left = 0;
+            label2.Top = ClientSize.Height - label2.Height - label3.Height;
         }
     }
 }
