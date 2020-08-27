@@ -1,1 +1,9 @@
 C:\Users\student\Documents\tacky_yamamoto\v0827-1\v0827-1\bin\Debug\v0827-1.exe.config
+C:\Users\student\Documents\tacky_yamamoto\v0827-1\v0827-1\obj\Debug\v0827_1.Form1.resources
+C:\Users\student\Documents\tacky_yamamoto\v0827-1\v0827-1\obj\Debug\v0827_1.Properties.Resources.resources
+C:\Users\student\Documents\tacky_yamamoto\v0827-1\v0827-1\obj\Debug\v0827-1.csproj.GenerateResource.Cache
+C:\Users\student\Documents\tacky_yamamoto\v0827-1\v0827-1\bin\Debug\v0827-1.exe
+C:\Users\student\Documents\tacky_yamamoto\v0827-1\v0827-1\bin\Debug\v0827-1.pdb
+C:\Users\student\Documents\tacky_yamamoto\v0827-1\v0827-1\obj\Debug\v0827-1.exe
+C:\Users\student\Documents\tacky_yamamoto\v0827-1\v0827-1\obj\Debug\v0827-1.pdb
+C:\Users\student\Documents\tacky_yamamoto\v0827-1\v0827-1\obj\Debug\v0827-1.csprojResolveAssemblyReference.cache
