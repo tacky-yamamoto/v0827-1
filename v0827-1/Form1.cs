@@ -14,6 +14,7 @@ namespace v0827_1
     {
         int vx = -3;
         int vy = -3;
+        int itime = 0;
         public Form1()
         {
             InitializeComponent();
@@ -26,6 +27,8 @@ namespace v0827_1
             label1.Left += vx;
             label1.Top += vy;
             label2.Text = "" + mp.X + "," + mp.Y;
+            itime += 1;
+            label3.Text = "score:" + itime;
             if (label1.Left < 0)
             {
                 vx = Math.Abs(vx);
